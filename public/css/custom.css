@@ -1,0 +1,482 @@
+/**************** GLOBAL STYLES v 2*****************/
+
+html, body, address, article, footer, header, h1, h2, h3, h4, h5, h6, hgroup, input, main, nav, section, summary, 
+dd, div, dl, dt, hr, li, ol, p, pre, ul, img , a, b, br, span, strong, sub, sup, time, u, b, s, var  {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: helvetica;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    /* TODO: Get background 
+    background-image: url(/assets/images/background_brick.jpg); */
+}
+
+div {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+p {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/**************** ACTIONS *****************/
+
+a:hover{
+    cursor: pointer;
+    opacity: .8;
+}
+
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.left {
+    margin-left: 0;
+    text-align: left;
+}
+
+.right {
+    margin-right: 0;
+    text-align: right;
+}
+
+.hidden {
+    display: none !important;
+}
+
+@media only screen and (min-width: 768px) {
+    .hide-at-sm {
+        display: none !important;
+    }
+    
+    .show-at-sm {
+        display: block !important;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .hide-at-md {
+        display: none !important;
+    }
+
+    .show-at-md {
+        display: block !important;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .hide-at-lg {
+        display: none !important;
+    }
+    
+    .show-at-lg {
+        display: block !important;
+    }
+}
+
+/**************** FONT STYLES *****************/
+
+.font--wht {
+    color: #fff;
+}
+
+.font--blk {
+    color: #000;
+}
+
+.font--blu {
+    color: #72bcd4;
+}
+
+.title {
+    font-family: helvetica;
+    font-size: 1.75em;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    font-family: helvetica;
+    font-size: 1.5em;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+}
+
+.text {
+    font-family: helvetica;
+    font-size: 1.25em;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+}
+
+.text p {
+    margin-bottom: 1em;
+}
+
+.cursive-title {
+    font-family: cursive;
+    text-transform: none;
+}
+
+
+/****************** GRID STRUCTURE ************/
+
+.row {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.col-xs-none, .col-xs-eighth, .col-sm-eighth, .col-md-eighth, .col-lg-eighth, .col-xs-seventh, .col-sm-seventh, .col-md-seventh, .col-lg-seventh, .col-xs-sixth, .col-sm-sixth, .col-md-sixth, .col-lg-sixth, .col-xs-fifth, .col-sm-fifth, .col-md-fifth, .col-lg-fifth, .col-xs-fourth, .col-sm-fourth, .col-md-fourth, .col-lg-fourth, .col-xs-third, .col-sm-third, .col-md-third, .col-lg-third, .col-xs-3sevenths, .col-xs-half, .col-sm-half, .col-md-half, .col-lg-half, .col-xs-2thirds, .col-sm-2thirds, .col-md-2thirds, .col-lg-2thirds, .col-xs-3fourths, .col-sm-3fourths, .col-md-3fourths, .col-lg-3fourths, .col-xs-full, .col-sm-full, .col-md-full, .col-lg-full {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-xs-none, .col-xs-eighth, .col-xs-seventh, .col-xs-sixth, .col-xs-fifth, .col-xs-fourth, .col-xs-third, .col-xs-3sevenths, .col-xs-half, .col-xs-2thirds, .col-xs-3fourths, .col-xs-full {
+    float: left;
+}
+.col-xs-full {width: 100%;}
+.col-xs-3fourths {width: 75%;}
+.col-xs-2thirds {width: 66.66666666%;}
+.col-xs-half {width: 50%;}
+.col-xs-3sevenths {width: 42.855%;}
+.col-xs-third {width: 33.33333333%;}
+.col-xs-fourth {width: 25%;}
+.col-xs-fifth {width:20%;}
+.col-xs-sixth {width: 16.66666667%;}
+.col-xs-seventh{width: 14.285%;}
+.col-xs-eighth {width: 12.5%;}
+.col-xs-none {width: 0%;}
+
+
+@media (min-width: 768px) {
+    .col-sm-eighth, .col-sm-sixth, .col-sm-fifth, .col-sm-fourth, .col-sm-third, .col-sm-half, .col-sm-2thirds, .col-sm-3fourths, .col-sm-full {
+        float: left;
+    }
+    .col-sm-full {width: 100%;}
+    .col-sm-3fourths {width: 75%;}
+    .col-sm-2thirds {width: 66.66666666%;}
+    .col-sm-half {width: 50%;}
+    .col-sm-third {width: 33.33333333%;}
+    .col-sm-fourth {width: 25%;}
+    .col-sm-fifth {width:20%;}
+    .col-sm-sixth {width: 16.66666667%;}
+    .col-sm-seventh {width: 14.285%;}
+    .col-sm-eighth {width: 12.5%;}
+}
+
+@media (min-width: 992px) {
+    .col-md-eighth, .col-md-sixth, .col-md-fifth, .col-md-fourth, .col-md-third, .col-md-half, .col-md-2thirds, .col-md-3fourths, .col-md-full {
+        float: left;
+    }
+    .col-md-full {width: 100%;}
+    .col-md-3fourths {width: 75%;}
+    .col-md-2thirds {width: 66.66666666%;}
+    .col-md-half {width: 50%;}
+    .col-md-third {width: 33.33333333%;}
+    .col-md-fourth {width: 25%;}
+    .col-md-fifth {width:20%;}
+    .col-md-sixth {width: 16.66666667%;}
+    .col-md-seventh{width: 14.285%;}
+    .col-md-eighth {width: 12.5%;}
+}
+
+@media (min-width: 1200px) {
+    .col-lg-eighth, .col-lg-sixth, .col-lg-fifth, .col-lg-fourth, .col-lg-third, .col-lg-half, .col-lg-2thirds, .col-lg-3fourths, .col-lg-full {
+        float: left;
+    }
+    .col-lg-full {width: 100%;}
+    .col-lg-3fourths {width: 75%;}
+    .col-lg-2thirds {width: 66.66666666%;}
+    .col-lg-half {width: 50%;}
+    .col-lg-third {width: 33.33333333%;}
+    .col-lg-fourth {width: 25%;}
+    .col-lg-fifth {width:20%;}
+    .col-lg-sixth {width: 16.66666667%;}
+    .col-lg-seventh{width: 14.285%;}
+    .col-lg-eighth {width: 12.5%;}
+}
+
+.pull-col-left {
+    padding-left: 0 !important;
+}
+
+.pull-col-right {
+    padding-right: 0 !important;
+}
+
+
+/****************** MAIN PAGE STRUCTURE ************/
+.container {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+    overflow-y: auto;
+}
+
+.container--contents {
+    width: 90%;
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+
+/******************* STICKY NAVIGATION ********************/
+
+.container--sticky-navbar {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.container--menu-btn {
+    background-color: #72bcd4;
+}
+
+.container--menu-btn i {
+    padding: 0;
+    background-color: #000;
+    padding: .25em;
+}
+
+.container--sticky-navbar .fa-2x {
+    font-size: 32px !important;
+}
+
+.sticky-navbar--menu-button {
+    width: 48px;
+    float: left;
+    margin-right: 10px;
+}
+
+.container--sticky-navbar .text {
+    font-size: 24px;
+    margin-left: 6px;
+}
+
+.container--sticky-navbar-is-active {
+    margin-top: 48px;
+}
+
+.container--sticky-navbar-extended {
+    background-color: #fff;
+    max-height: 400px;
+}
+
+.container--sticky-navbar-extended .font--blk:hover {
+    color: #72bcd4;
+}
+
+.container--back-to-top {
+    position: fixed;
+    bottom: 30px;
+    left: 0;
+    width: 3.5em;
+    z-index: 1000;
+}
+
+.container--back-to-top:hover .font--blk {
+    color: #72bcd4;
+}
+
+
+/******************* BODY STANDARDS ********************/
+
+.background--wht {
+    background-color: #fff;
+    background-color: rgba(255,255,255,0.5);
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.background--blk {
+    background-color: #000;
+    background-color: rgba(0,0,0,0.1);
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.background__title--blk {
+    background-color: #000;
+    background-color: rgba(0,0,0,0.3);
+    width: 100%;
+}
+
+.background__contents {
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.standard-btn {
+    height: 35px;
+    max-width: 200px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 2em;
+    background-color: #000;
+    display: table;
+}
+
+.standard-btn__text {
+    height: 35px;
+    width: 200px;
+    position: absolute;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.standard-btn__text p {
+    font-family: helvetica;
+    font-size: 20px !important;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.standard-btn:hover {
+    background-color: #72bcd4;
+}
+
+
+/******************* HEADER IMAGE STYLING ********************/
+
+.container--header-image {
+    background-color: #d6ebf2;
+}
+
+.container--header-image img {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 786px) {
+    .container--header-image {
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
+}
+
+
+/******************* OUR STORY STYLING ********************/
+
+.container--our-story {
+    background-color: #000;
+    background-color: rgba(0,0,0,0.2);
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+/******************* WEDDING PARTY STYLING ********************/
+
+.container--wedding-party {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.container--wedding-party img {
+    max-width: 400px;
+}
+
+/******************* VENUE INFO STYLING ********************/
+
+.container--venue-info {
+    background-color: #000;
+    background-color: rgba(0,0,0,0.2);
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.container--venue-info .col-xs-full {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+@media only screen and (min-width: 992px) {
+    .container--venue-info .col-xs-full {
+        min-height: 250px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
