@@ -100,7 +100,7 @@ a:hover{
 }
 
 .font--blu {
-    color: #72bcd4;
+    color: #5971ad;
 }
 
 .title {
@@ -253,7 +253,7 @@ a:hover{
 }
 
 .container--menu-btn {
-    background-color: #72bcd4;
+    background-color: #5971ad;
 }
 
 .container--menu-btn i {
@@ -287,7 +287,7 @@ a:hover{
 }
 
 .container--sticky-navbar-extended .font--blk:hover {
-    color: #72bcd4;
+    color: #5971ad;
 }
 
 .container--back-to-top {
@@ -299,7 +299,7 @@ a:hover{
 }
 
 .container--back-to-top:hover .font--blk {
-    color: #72bcd4;
+    color: #5971ad;
 }
 
 
@@ -364,18 +364,18 @@ a:hover{
 }
 
 .standard-btn:hover {
-    background-color: #72bcd4;
+    background-color: #5971ad;
 }
 
 
 /******************* HEADER IMAGE STYLING ********************/
 
 .container--header-image {
-    background-color: #d6ebf2;
+    background-color: #d8f0ff;
 }
 
 .container--header-image img {
-    max-width: 500px;
+    max-width: 700px;
     margin: 0 auto;
 }
 
@@ -405,6 +405,10 @@ a:hover{
 
 .container--wedding-party img {
     max-width: 400px;
+}
+
+.container--member-card {
+    margin-bottom: 3vh;
 }
 
 /******************* VENUE INFO STYLING ********************/
