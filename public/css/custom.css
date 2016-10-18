@@ -336,7 +336,6 @@ a:hover{
     max-width: 200px;
     margin: 0 auto;
     position: relative;
-    margin-bottom: 2em;
     background-color: #000;
     display: table;
 }
@@ -396,6 +395,16 @@ a:hover{
     padding-bottom: 5vh;
 }
 
+.container--our-story .read-more-text-class {
+    max-height: 400px;
+    overflow-y: hidden;
+}
+
+.container--our-story .standard-btn {
+    margin-top: 3vh;
+}
+
+
 /******************* WEDDING PARTY STYLING ********************/
 
 .container--wedding-party {
@@ -425,6 +434,14 @@ a:hover{
     padding-bottom: 5vh;
     padding-left: 25px;
     padding-right: 25px;
+}
+
+.container--venue-info a {
+    color: #5971ad;
+}
+
+.container--venue-info a:hover {
+    color: #000;
 }
 
 @media only screen and (min-width: 992px) {

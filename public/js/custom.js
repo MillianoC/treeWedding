@@ -31,3 +31,9 @@ var backToTop = function() {
 var toggleStickyNav = function() {
     $('#sticky-navbar-content').toggleClass("hidden");
 }
+
+
+// Toggle "Read More - Our Story" Button
+var toggleReadMore = function() {
+    $('#read-more-text').toggleClass("read-more-text-class");
+} 
