@@ -451,6 +451,21 @@ a:hover{
 }
 
 
+/******************* REGISTRY LINKS STYLING ********************/
+
+.container--registry-links {
+    background-color: #d8f0ff;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.container--registry-links .cursive-title {
+    margin-bottom: 3vh;
+}
+
+.container--registry-links img {
+    max-width: 300px;
+}
 
 
 
