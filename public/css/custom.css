@@ -468,51 +468,23 @@ a:hover{
 }
 
 
+/******************* HOTEL INFO STYLING ********************/
 
+.container--hotel-info {
+    background-color: #fff;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
 
+.container--hotel-info .cursive-title {
+    margin-bottom: 3vh;
+}
 
+.container--hotel-info img {
+    max-width: 300px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.container--hotel-info a:hover .font--blk {
+    color: #d8f0ff;
+}
 
